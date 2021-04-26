@@ -1,0 +1,110 @@
+Not region specific: Route 53, WAF
+Oracle - BYOL
+IAM Policy Simulator: test, troubleshoot IAM policies
+API Gateway, Labda@Edge - serverless, managed
+Cognito ID Pool - unauthenticated user logins, social media, 3rd party credentials
+Security Assertion Markup Language - SAML
+Pay based on Monthly Active Users (50,000 free)
+CloudWatch - retains logs indefinitely unless you adjust the retention policy
+Microsoft SQL - Ec2, RDS
+Zone Security - customer responsibility
+Trusted Advisor - making recommendations (Cost Opt, Performance, Security, Service Limits, Fault Tolerance)
+RDS, ElastiCache, AWS Search - No need to manage OS patches
+Global - IAM, Route 53, S3
+Regional - Batch, EFS, AMI
+Route 53, Virtual Private Gateway - resolve connection btwn VPC + on prem VPN
+App Load Balancer - path, host
+Network Load Balancer - millions of requests per second
+Amazon MQ - message brokering service, connect ec2's to other systems with different OSs
+AWS QucikStart - blueprints made by Sol. Arch., provides ref deployments for key workloads
+Query SQL - Athena
+FSx - File System Service, fully managed
+Glacier - minutes to hours
+Glacier Deep Archive - hours for retrieval
+Think Parallel - WAF (well arch. framework) design principal
+DynamoDB - fully managed, JSON documents
+SOA - service oriented architecture, decoupling
+RDS is managed but not fully managed
+Cold HDD not bootable
+Types of Storage Gateways - File, Tape, Volume
+  stored - fully copy on aws and on prem, cached is fully backed up on aws and on prem in in memory
+On prem - CodeDeploy, OpsWorks
+Aurora uses mySQL, not Microsoft SQL
+Upload SSL - IAM, Certificate Manager
+CloudTrail - when you create a trail, it applies to all regions
+S3 IA - direct uploads
+Agility - ability to innovate faster bc basic infrastucture is taken care of
+VPN Gateway + Customer Gateway - connect VPC to local network
+RDS, Aurora - Penetration Testing Allowed without AWS notice
+Pinpoint - SNS w/user engagement metrics, keep track of how your messages are received by customers
+OAI - origin access identity - cloudfront user
+Cost Explorer - forecast, recommendations, graphical representation
+Cost and Usage Report - granular breakdown
+S3 Intelligent Tiering - no charge for data retrieval
+Budget Types - Reserved, Usage, Cost
+RDS & Redshift - CPU & RAM are what's charged
+RDS is not a key-value database
+Developer - general
+CloudWatch billig metric data is always stored on US east 1 (Virginia)
+Macie - S3
+Database - block storage
+S3 - media store for cloudfront
+Perf Efficiency - Go Global in minutes, use serverless architectures
+You are always responsible for encrypting your data
+Global Tables - DynamoDB Global performance
+AWS Service Catalog - centrally manage commonly deployed IT services
+AWS CAF - cloud adoption framework
+Dedicated Instances - you get your own hardware in AWS datacenter
+AWS security - scales quickly
+APN Consulting Partners - if you wanna partner with AWS offering your service on AWS
+Global Reach - helps reduce latency to worldwide users
+Advs. of cloud computing - reduce SPOFs + distributed infrastructure
+DynamoDB, S3 - built with native multiAZ
+RDS - performing backups is AWS responsibility
+Customer fully inherits Physcil and Environmental controls
+No upfront Reserved - still discounted hourly (all upfront, no hourly rate)
+Data In Transit Protection - SSL, Client Side Encryption
+AutoScaling, Cloudformation - FREE services
+Always use case sensitive format for TAGS
+EFS - automatically scaling
+SWF - simple workflow service
+AWS Artifact - manage your agreeements
+IAM Root User and User - require Access Key and Secret Access Key
+S3 object level storage
+Customer Managed DB - Ec2
+RDS redundancy across regions - read replicas
+3 months - on demand ec2
+Golden Images : AMI
+Durability: EBS volumes auto replicated in same AZ, fault tolerant
+Single Site is not a disaster recovery option
+Backup and restore - takes hours to reover, lower priority services
+Pilot Light - 10s of minutes to recover, core services
+Warm Standby - minutes to recover, business critical
+Multi-Site - real time recovery, mission critical services
+Cost Explorer - helps manage cost for all resources in AWS
+EBS elastic beanstalk - easily deploy container for an application
+10TB - snowball
+CloudTrail - governance, compliance, risk auditing
+S3 - durable for static content
+S3 Transfer Accelerator - improve transfers in and out at long distances using cloudfront and edge locations
+AWS DMS database migration service
+all support plans have 24/7 access to customer support, but not truster advisor
+AWS SDK can be used to call AWS services via .net or other programming languages (for developers)
+EBS replicated within AZs not across them
+Ec2 Partial Upfront Reserved is the cheapest option for 6 months of compute time
+There is no critical support for Biz or Dev or Basic, Enterprise is the way
+AWS Console cannot be user to upload files to Glacier
+CloudFront w/app video streaming is good globally
+Route 53 can help with disaster recover to route requests to other places
+Organizations - control access to services, consolidate billing
+Free security resources - security blog, provable sec, bulletins, whitepapers
+Paid AMI - console, marketplace, cli
+EBS costs - volumes, snapshots, IOPS, Data transfer
+serverless - lambda, fargate, ECS, DynamoDB
+Server based - EMR, RDS, Ec2, RedShift
+Types of RIs - Convertible, Standard, Scheduled
+EFS - high throughput to multiple nodes
+Lambda - no charge when code isn't running, auto scales compute capacity
+EBS - encrypt with KMS, run a database on Ec2
+RDS supports ACID atomicity, consistency, isolation, and durability
+AWS X-ray - helps ID bottlenecks and troubleshoot relationship btwn services
